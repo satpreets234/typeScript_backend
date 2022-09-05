@@ -1,0 +1,11 @@
+enum statusCodes{
+    FORBIDDEN=403,
+    NOT_FOUND=404,
+    DUPLICATE_IS_NOT_ALLOWED=409,
+    INTERNAL_SERVER_ERROR=500,
+    BAD_REQUEST=400,
+    SUCCESS=200,
+
+}
+
+export{statusCodes};
